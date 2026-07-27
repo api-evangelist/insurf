@@ -1,0 +1,26 @@
+# Insurf
+
+> Insurf, Inc. is a Y Combinator-backed healthcare company building an end-to-end prior-authorization and denial-appeals platform. Its flagship product, Inveto, is a denial-management workbench that converts denial letters, clinical evidence, and payer policy snapshots into source-cited prior-authorization templates and appeal packets for staff review and physician attestation before staff-controlled filing and outcome tracking. A second product, Surely, is a deterministic twelve-month health-plan cost engine for true-cost plan selection (coming soon). Insurf is in private pilot; production PHI remains disabled behind customer BAAs, vendor coverage, technical gates, and founder go-live approval.
+
+Note: Insurf publishes no public API, OpenAPI, SDKs, or MCP server as of this writing. The links below are its public product and trust surfaces.
+
+## Products
+- [Inveto](https://www.insurf.io): Denial-management workbench for prior authorization and appeals
+- [Surely](https://www.insurf.io/surely): Twelve-month health-plan cost engine (coming soon)
+- [Public demo](https://www.insurf.io/demo): Recorded end-to-end denial workflow on a fixed synthetic case
+- [Methodology](https://www.insurf.io/methodology): Public outcome-reporting rules, denominators, and suppression
+
+## Docs
+- [Documentation hub](https://www.insurf.io/docs): Evaluator orientation to Insurf, Inveto, and Surely
+
+## Trust
+- [Security](https://www.insurf.io/security): Controls, SOC 2 / HIPAA readiness posture, vulnerability reporting
+- [security.txt](https://www.insurf.io/.well-known/security.txt): RFC 9116 contact (bryan@insurf.io)
+- [Privacy](https://www.insurf.io/privacy): Public, pilot, and future-PHI data boundaries
+- [Terms](https://www.insurf.io/terms): Terms of service
+- [Status](https://www.insurf.io/status): Public service status and incident record
+- [Changelog](https://www.insurf.io/changelog): Customer-visible release notes
+
+## Contact
+- [Pilot team](mailto:pilot@insurf.io): Pilot and demo inquiries
+- [Security contact](mailto:bryan@insurf.io): Security and vulnerability reports

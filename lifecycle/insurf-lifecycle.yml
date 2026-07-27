@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.insurf.io/status
+# Insurf is in private pilot with no public/versioned API. Captured surfaces are
+# the operational trust pages the company publishes for diligence.
+versioning:
+  scheme: none-published
+  note: No public API versioning policy; product is in private pilot.
+deprecation:
+  policy_url: null
+  sunset_header: false
+  note: No published deprecation policy or RFC 8594 Sunset support.
+status_page: https://www.insurf.io/status
+status:
+  public_site: operational
+  inveto: private-pilot-readiness (production PHI disabled until launch gates pass)
+  surely: public vertical slice + private evaluation workflows operational
+  incidents: none currently posted; customer-specific incidents handled under signed agreement/BAA
+changelog: https://www.insurf.io/changelog
+change_cadence: Updated when public or customer-visible surfaces materially change.
+deprecated_operations: []

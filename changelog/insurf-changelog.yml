@@ -1,0 +1,26 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.insurf.io/changelog
+scheme: dated
+scope: Public site, product surfaces, trust pages, demos, and pilot workflow changes.
+cadence: Updated when public or customer-visible surfaces materially change.
+note: >-
+  Private security, access, and customer-specific audit logs remain in
+  controlled systems and are not reflected here.
+entries:
+- date: '2026-07-16'
+  title: Trust evidence surfaces
+  breaking: false
+  additions: true
+  highlights:
+  - Added public security, privacy, terms, status, documentation, support, and changelog pages for SOC 2 evidence collection.
+  - Clarified that SOC 2 work is readiness and evidence collection until a report is issued.
+  - Linked security reporting to the published security.txt contact.
+- date: '2026-07'
+  title: Public product evaluation
+  breaking: false
+  additions: true
+  highlights:
+  - Published public Inveto, Surely, demo, methodology, dashboard, and kickoff surfaces for customer and diligence review.
+  - Kept production PHI language gated behind executed customer paperwork, vendor coverage, and technical readiness controls.
+  - Documented source-citation, attestation, denominator, and suppression rules for public outcome reporting.

@@ -1,0 +1,37 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://www.insurf.io/security
+url: https://www.insurf.io/security
+# The /security page is a public trust surface, but Insurf EXPLICITLY DISCLAIMS
+# certification. Per the page: "No SOC 2 report has been issued yet. Current work
+# is readiness and evidence collection." and "Insurf does not claim SOC 2
+# certification... does not claim HIPAA certification; HIPAA readiness depends on
+# BAAs, policies, and launch controls." SOC 2 / HIPAA are recorded below as
+# in-progress readiness ONLY, not achieved certifications. No Compliance pointer
+# is emitted because no compliance program has been published/attained.
+certifications: []
+readiness:
+- program: SOC 2
+  status: in-progress
+  note: No SOC 2 report issued; readiness and evidence collection via Vanta.
+- program: HIPAA
+  status: in-progress
+  note: HIPAA readiness pending BAAs, policies, and launch controls; not certified.
+controls:
+- Vanta monitors Google Workspace and GitHub evidence.
+- MFA-oriented founder/admin access reviewed for production paths.
+- AWS (S3, KMS, Textract, logging) is the intended covered cloud boundary.
+- PHI vendor path limited to AWS, Vercel, Neon, and OpenAI absent a signed customer agreement.
+boundaries:
+- Does not claim SOC 2 certification or a completed SOC 2 report.
+- Does not claim HIPAA certification.
+- Public demos use synthetic or redacted material, not production PHI.
+evidence:
+- source: https://www.insurf.io/security
+  keywords:
+  - trust
+  - security
+  - soc 2 (readiness)
+  - hipaa (readiness)
+  - vanta
