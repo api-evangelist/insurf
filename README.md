@@ -64,6 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Insurf is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Insurf, Inc. is a Y Combinator-backed healthcare company building an end-to-end prior-authorization and denial-appeals platform. Its flagship product, Inveto, is a denial-management workbench that turns denial letters, clinical evidence, and payer policy snapshots into source-cited prior-authorization templates and appeal packets for staff review and physician attestation before staff-controlled filing and outcome tracking. A second product, Surely, is a deterministic twelve-month health-plan cost engine for true-cost plan selection (coming soon). Insurf operates in private pilot: production PHI remains disabled behind customer BAAs, vendor coverage, technical gates, and founder go-live approval, and the company publishes public trust surfaces — security, privacy, terms, status, changelog, methodology, and documentation — for customer and diligence review.
 
-Backed by: y-combinator
+**Areas:** Company · Healthcare · Health Insurance · Prior Authorization · Denial Appeals · Revenue Cycle Management · Insurance · Artificial Intelligence · Y Combinator
+
+## Insurf on APIs.io
+
+Everything profiled for Insurf is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/insurf/](https://apis.io/providers/insurf/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [Moved to /providers/insurf/](https://apis.io/servers/insurf/insurf/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Insurf Domain Security](https://apis.io/security/insurf/insurf-domain-security/)
+- [Insurf Trust Center](https://apis.io/security/insurf/insurf-trust-center/)
+- [Insurf Vulnerability Disclosure](https://apis.io/security/insurf/insurf-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.insurf.io)
+- [Documentation](https://www.insurf.io/docs)
+- [Changelog](https://www.insurf.io/changelog)
+- [Security](https://www.insurf.io/security)
+- [Terms of service](https://www.insurf.io/terms)
+- [Privacy policy](https://www.insurf.io/privacy)
+- [Status](https://www.insurf.io/status)
+
+## API Evangelist rating
+
+**Kin Score 21.8** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 42.1 |
+| Developer ergonomics | 14.3 |
+| Access clarity | 35.5 |
+
+**Agent readiness 8.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 20.5** — Insurance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/insurf/](https://apis.io/providers/insurf/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Insurf: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/insurf/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
